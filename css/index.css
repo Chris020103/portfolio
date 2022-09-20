@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: rgb(81, 121, 121);
+    background: linear-gradient(90deg, rgba(81, 121, 121, 1) 0%, rgba(43, 191, 171, 1) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialsIcons {
+    width: 30px;
+}
+
+.ownCar {
+    width: 250px;
+    height: 200px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header li a:hover:not(.active) {
+    background-color: #111;
+}
+
+header .active {
+    background-color: lightblue;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+section .left-side {
+    max-width: 50%;
+    float: left;
+}
+
+section .right-side {
+    float: right;
+    max-width: 50%;
+}
+
+footer {
+    background: PapayaWhip;
+    height: auto;
+    margin-top: 3%;
+}
+
+footer .item {
+    float: left;
+    width: 27%;
+    margin: 0 0.5%;
+    padding: 2%;
+}
+
+footer .footer-right p {
+    margin: 0;
+}
+
+
+/* Querys */
+
+@media only screen and (max-width: 40em) {
+    .item {
+        float: none;
+        width: 100%;
+        margin-bottom: 5px
+    }
+}
