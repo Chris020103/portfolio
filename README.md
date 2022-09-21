@@ -1,2 +1,2 @@
 # Portfolio
-Portfolio Chris Moerman 1052970
+Portfolio Chris Moerman voor front-end development.
