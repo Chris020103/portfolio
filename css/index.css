@@ -101,3 +101,16 @@ footer .footer-right p {
         margin-bottom: 5px
     }
 }
+
+.leftDiv {
+    display: inline-block;
+    width: 45%;
+    height: 120px;
+}
+
+.rightDiv {
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+    height: 160px;
+}
