@@ -23,70 +23,91 @@
         <section id="Me">
 
             <div class="wrapper">
-                <div class="leftDiv">
-                    <img src="./assets/images/Chrissie.jpg" style="width: 200px; position: relative;" alt="Image of Chris Moerman">
-                </div>
-                <div class="rightDiv">
-                    <section>
-                        <h1 id="home" style="margin: 0px">Welkom mijn naam is: Chris Moerman </h1>
-                        <p>Ik ben dus Chris Moerman zoals hierboven beschreven, momenteel volg ik de opleiding "CMGT" (Creative media and game technologies)
-                        </p>
-                        <h2>Wat ik wil leren:</h2>
-                        <p>Momenteel weet ik al een behoorlijk stuk kwa programmeren, dus wat ik graag nog in dit vakgebied wil leren is het designen van een website</p>
-                    </section>
-                </div>
-                <div>
-                    <h2 class="socials" style="text-align: center;">Mijn socials</h2>
-                    <div class="containerCards">
-                        <div class="card">
-                            <div class="box">
-                                <div class="content card2">
-                                    <img src="./assets/images/linkedIn.png" style="width: 70px" alt="LinkedIn Icon">
-                                    <p>LinkedIn</p>
-                                    <a href="https://www.linkedin.com/in/chris-moerman-a604851b9/">Go to LinkedIn</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="box">
-                                <div class="content card1">
-                                    <img src="./assets/images/instagram.webp" style="width: 70px" alt="Instagram icon">
-                                    <p>Instagram</p>
-                                    <a href="https://www.instagram.com/c.m.0180/">Go to instagram</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="box">
-                                <div class="content card3">
-                                    <img src="./assets/images/FacebookIcon.png" style="width: 70px;" alt="Facebook Icon">
-                                    <p>Facebook</p>
-                                    <a href="https://www.facebook.com/chris.moerman.37/">Go to Facebook</a>
-                                </div>
-                            </div>
-                        </div>
+                <section>
+                    <div class="leftDiv">
+                        <section>
+                            <img src="./assets/images/Chrissie.jpg" style="width: 250px; position: relative;" class="my-image" alt="Image of Chris Moerman">
+                        </section>
                     </div>
-                </div>
-            </div>
-        </section>
-        </section>
-        <section>
-            <section id="hobbies" class="wrapper">
-                <div class="leftDiv">
-                    <h4>Mijn hobby's in een lijstje:</h4>
-                    <ul>
-                        <li>Waterpolo</li>
-                        <li>Auto</li>
-                        <li>Vriendin</li>
-                        <li>Mazda MX-5</li>
-                    </ul>
-                    <img src="./assets/images/mijnAuto.jpg" class="ownCar" alt="Mazda MX-5 eigenaar Chris Moerman">
+                    <div class="rightDiv">
+                        <section>
+                            <div class="background-gray">
+                                <h2>Chris Moerman
+                                </h2>
+                                <p>Ik ben dus Chris Moerman zoals hierboven beschreven, momenteel volg ik de opleiding "CMGT" (Creative media and game technologies)
+                                </p>
+                            </div>
+                            <div style="margin-top: 20px;" class="background-gray">
+                                <h2>Wat ik wil leren:</h2>
+                                <p>Momenteel weet ik al een behoorlijk stuk kwa programmeren, dus wat ik graag nog in dit vakgebied wil leren is het designen van een website</p>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+                <section class="background-around-hobbies">
+                    <h2 class="socials" style="text-align: center;">Mijn hobbies</h2>
+                    <div class="containerhobby">
+                        <input id="input1" name="position" type="radio" checked />
+                        <label class="label1" for="input1" style="grid-column: 2/4; grid-row: 2/3;"></label>
+                        <input id="input2" name="position" type="radio" />
+                        <label class="label2" for="input2" style="grid-column: 3/5; grid-row: 2/3;"></label>
+                        <input id="input3" name="position" type="radio" />
+                        <label class="label3" for="input3" style="grid-column: 4/6; grid-row: 2/3;"></label>
+                        <input id="input4" name="position" type="radio" />
+                        <label class="label4" for="input4" style="grid-column: 5/7; grid-row: 2/3;"></label>
+                        <input id="input5" name="position" type="radio" />
+                        <label class="label5" for="input5" style="grid-column: 6/8; grid-row: 2/3;"></label>
 
-                </div>
-                <div class="rightDiv">
-                    <h4>Tabel</h4>
-                    <table class="table">
+                        <main id="carousel">
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <div class="item"></div>
+                            <main>
+                    </div>
+                </section>
+                <section>
+                    <section>
+                        <p>Hierboven zijn mijn hobbies afgebeeld, het zijn er niet heel veel maar nemen per stuk veel tijd in beslag.
+                        </p>
+                        <div class="waterpolo-div" style="width: 50%;">
+                            <h2>Waterpolo</h2>
+                            <button class="shower" onclick="ShowAndHide('Waterpolo')">Bekijk uitleg</button>
+                            <p style="padding: 10px;display: none;" id="Waterpolo">Heb ik gekozen als nummer 1 dat is omdat het mijn sport is, ik doe dit gemiddeld 3 keer per week.
+                            </p>
+                        </div>
+                        <div class="mx-5-div" style="width: 50%;">
+
+                            <h2>Mazda MX-5 </h2>
+                            <button class="shower" onclick="ShowAndHide('MX-5')">Bekijk uitleg</button>
+                            <p style="padding: 10px;display: none;" id="MX-5">Lijkt op eerste gezicht een vreemde keuze maar dat is wel een van mijn hobbies. Zelf heb ik een ouder model Mazda mx-5 maar geniet ik elke dag van het rijden in die auto.</p>
+                        </div>
+                        <div class="formule-1-div" style="width: 50%;">
+
+                            <h2>Formule 1 (Max Verstappen)</h2>
+                            <button class="shower" onclick="ShowAndHide('Formule1')">Bekijk uitleg</button>
+                            <p style="padding: 10px;display: none;" id="Formule1">
+                                Ik ben groot fan van Max Verstappen dat is niet sinds hij echt successen begon te halen maar dat is al sinds mijn 14 leeftijd. Dat is momenteel 5 jaar terug. Toen was Max zelf nog 20 dus nog niet op het niveau als dat die nu is.
+                            </p>
+                        </div>
+                        <div class="family-div" style="width: 50%;">
+
+                            <h2>Familie</h2>
+                            <button class="shower" onclick="ShowAndHide('Familie')">Bekijk uitleg</button>
+                            <p style="padding: 10px;display: none;" id="Familie">Famillie is een belangrijk deel in mijn leven ik ben echt een familie mens. Het liefst ga ik lekker op pad met mijn familie om leuke dingen te gaan doen</p>
+                        </div>
+                        <div class="girlfriend-div" style="width: 50%;">
+
+                            <h2>Vriendin</h2>
+                            <button class="shower" onclick="ShowAndHide('Girlfriend')">Bekijk uitleg</button>
+                            <p style="padding: 10px;display: none;" id="Girlfriend">Waar natuurlijk ook veel tijd in gaat zitten is mijn vriendin. Klinkt alsof ik dat erg vind maar dat is totaal niet zo.</p>
+                        </div>
+                    </section>
+                </section>
+                <section id=" hobbies " class="wrapper ">
+                    <h2 style="text-align: center; ">Tabel</h2>
+                    <table class="table ">
                         <thead>
                             <tr>
                                 <th>Hobby</th>
@@ -95,35 +116,122 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td scope="row">Waterpolo</td>
+                                <td scope="row ">Waterpolo</td>
                                 <td>8</td>
                             </tr>
                             <tr>
-                                <td scope="row">Auto</td>
+                                <td scope="row ">Mazda MX-5</td>
                                 <td>10</td>
                             </tr>
                             <tr>
-                                <td scope="row">Grand theft auto 5</td>
-                                <td>6</td>
+                                <td scope="row ">Formule 1</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td scope="row ">Family</td>
+                                <td>8</td>
                             </tr>
                         </tbody>
                     </table>
+                </section>
+                <div class="background-around-hobbies ">
+                    <h2 class="socials " style="text-align: center; ">Mijn socials</h2>
+                    <div class="containerCards ">
+                        <div class="card ">
+                            <div class="box ">
+                                <div class="content card2 ">
+                                    <img src="./assets/images/linkedIn.png " style="width: 50px " alt="LinkedIn Icon ">
+                                    <p>LinkedIn</p>
+                                    <a href="https://www.linkedin.com/in/chris-moerman-a604851b9/ ">Go to LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card ">
+                            <div class="box ">
+                                <div class="content card1 ">
+                                    <img src="./assets/images/instagram.webp " style="width: 50px " alt="Instagram icon ">
+                                    <p>Instagram</p>
+                                    <a href="https://www.instagram.com/c.m.0180/ ">Go to instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card ">
+                            <div class="box ">
+                                <div class="content card3 ">
+                                    <img src="./assets/images/FacebookIcon.png " style="width: 50px; " alt="Facebook Icon ">
+                                    <p>Facebook</p>
+                                    <a href="https://www.facebook.com/chris.moerman.37/ ">Go to Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section>
+                <section></section>
+            </div>
         </section>
-    </main>
+        </main>
+        <section class="form">
+            <form class="d-flex background-around-hobbies" method="get" enctype="text/plain" action="mailto:1052970@hr.nl">
+                <h2 style="margin: 0 auto;">Contact formulier</h2>
+                <section class="w-100 padding-10 name d-flex">
+                    <section class="firstName d-flex small-100 middle-50  w-33 padding-0 ">
+                        <label class="w-50" for="firstName">Voornaam: </label>
+                        <input class="w-50 border-0 padding-0" type="text" name="firstName" placeholder="Chris" id="firstName" />
+                    </section>
+                    <section class="middleName d-flex small-100 middle-50  w-33 padding-0 ">
+                        <label class="w-50" for="middleName">Tussenvoegsel: </label>
+                        <input class="w-50 border-0 padding-0" type="text" name="middleName" placeholder="van der" id="middleName" />
+                    </section>
+                    <section class="lastname d-flex small-100 middle-50  w-33 padding-0 ">
+                        <label class="w-50" for="middleName">Achternaam: </label>
+                        <input class="w-50 border-0 padding-0" type="text" name="lastName" placeholder="Moerman" id="lastName" />
+                    </section>
+                </section>
+                <section class="w-100 padding-10 d-flex">
+                    <section class="small-100 d-flex w-50 small-100 padding-0">
+                        <label class="w-50" for="email">E-mail: </label>
+                        <input class="w-50 border-0 padding-0" type="email" id="email" name="email" placeholder="1052950@hr.nl" />
+                    </section>
+                    <section class="small-100 d-flex w-50 padding-0">
+                        <label class="w-50" for="phoneNumber">Telefoonnummer: </label>
+                        <input class="w-50 border-0  padding-0" type="text" id="phoneNumber" placeholder="06-37353879" name="phoneNumber" />
+                    </section>
+                </section>
+                <h3 style="margin: 0 auto;">Gegevens van uzelf</h3>
+                <section class="w-100 padding-10 d-flex">
+                    <section class="small-100 d-flex w-50 small-100 padding-0">
+                        <label class="w-50" for="email">Uw e-mailadres: </label>
+                        <input class="w-50 border-0 padding-0" type="email" id="emailPerson" name="emailPerson" placeholder="1052950@hr.nl" />
+                    </section>
+                    <section class="small-100 d-flex w-50 padding-0">
+                        <label class="w-50" for="fullName">Volledige naam: </label>
+                        <input class="w-50 border-0  padding-0" type="text" id="fullName" placeholder="Bas" name="fullName" />
+                    </section>
+                </section>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+        <footer contentEditable>
+            <div id="footer " class="item ">
+                <h4>Chris Moerman</h4>
+            </div>
+            <div class="item ">
 
-    <footer contentEditable>
-        <div id="footer" class="item">
-            <h4>Chris Moerman</h4>
-        </div>
-        <div class="item">
+            </div>
 
-        </div>
+        </footer>
 
-    </footer>
-
-    <script src="" async defer></script>
 </body>
 
 </html>
+<script>
+    function ShowAndHide(divName) {
+        var x = document.getElementById(divName);
+        if (x.style.display == 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+</script>
