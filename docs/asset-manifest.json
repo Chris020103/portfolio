@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.df2933ad.css",
-    "main.js": "/static/js/main.4c166645.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/image00001.jpeg": "/static/media/image00001.d70bc33a43dbd6b443ff.jpeg",
-    "static/media/Chrissie.jpg": "/static/media/Chrissie.1b4602f82e82c2a5d5b1.jpg",
-    "static/media/PHP.png": "/static/media/PHP.a7759c068d5c9f03bebf.png",
-    "static/media/JS.png": "/static/media/JS.37dd0697ee49e72f6ea0.png",
-    "static/media/CSS3.png": "/static/media/CSS3.4e67641bb68b658d9b2b.png",
-    "static/media/html5.webp": "/static/media/html5.0fef0faafdcabfc4ad27.webp",
-    "index.html": "/index.html",
-    "main.df2933ad.css.map": "/static/css/main.df2933ad.css.map",
-    "main.4c166645.js.map": "/static/js/main.4c166645.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.df2933ad.css",
+    "main.js": "/portfolio/static/js/main.ae85a227.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/image00001.jpeg": "/portfolio/static/media/image00001.d70bc33a43dbd6b443ff.jpeg",
+    "static/media/Chrissie.jpg": "/portfolio/static/media/Chrissie.1b4602f82e82c2a5d5b1.jpg",
+    "static/media/PHP.png": "/portfolio/static/media/PHP.a7759c068d5c9f03bebf.png",
+    "static/media/JS.png": "/portfolio/static/media/JS.37dd0697ee49e72f6ea0.png",
+    "static/media/CSS3.png": "/portfolio/static/media/CSS3.4e67641bb68b658d9b2b.png",
+    "static/media/html5.webp": "/portfolio/static/media/html5.0fef0faafdcabfc4ad27.webp",
+    "index.html": "/portfolio/index.html",
+    "main.df2933ad.css.map": "/portfolio/static/css/main.df2933ad.css.map",
+    "main.ae85a227.js.map": "/portfolio/static/js/main.ae85a227.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df2933ad.css",
-    "static/js/main.4c166645.js"
+    "static/js/main.ae85a227.js"
   ]
 }
