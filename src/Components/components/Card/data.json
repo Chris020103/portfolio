@@ -1,0 +1,36 @@
+[{
+        "title": "HTML5",
+        "color": "#e44b24",
+        "alt": "HTML5 icon",
+        "experiencePercent": "80",
+        "description": "In principe kan ik al veel van HTML maar toch zijn er dingen die altijd nieuw zijn, vandaar de 80%"
+    },
+    {
+        "title": "CSS3",
+        "color": "#4de5",
+        "alt": "CSS icon",
+        "experiencePercent": "80",
+        "description": "In principe kan ik al veel van HTML maar toch zijn er dingen die altijd nieuw zijn, vandaar de 80%"
+    },
+    {
+        "title": "JS",
+        "color": "#f7e018",
+        "alt": "JS icon",
+        "experiencePercent": "65",
+        "description": "In principe kan ik al veel van HTML maar toch zijn er dingen die altijd nieuw zijn, vandaar de 80%"
+    },
+    {
+        "title": "PHP",
+        "color": "#787cb4",
+        "alt": "Php icon",
+        "experiencePercent": "65",
+        "description": "In principe kan ik al veel van HTML maar toch zijn er dingen die altijd nieuw zijn, vandaar de 80%"
+    },
+    {
+        "title": "Docker",
+        "color": "#139fdb",
+        "alt": "Docker icon",
+        "experiencePercent": "35",
+        "description": "Ik weet hoe te werken met docker en daar netjes mijn content in te plaatsen maar hoe het op te stellen vind ik een puntje."
+    }
+]

@@ -1,0 +1,218 @@
+.navigation {
+  height: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background: #000000;
+  /* Old browsers */
+  /* FF3.6-15 */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #000000 1%, #203a43 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: white;
+  -webkit-box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+          box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+
+.navigation .brand-name {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+
+.navigation .profilePictureNavbar {
+  padding: 6px;
+}
+
+.navigation .profilePictureNavbar .ProfilePicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.navigation .navigation-menu {
+  margin-left: auto;
+}
+
+.navigation .navigation-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.navigation .navigation-menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+
+.navigation .navigation-menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.navigation .hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: none;
+}
+
+.navigation .hamburger:hover {
+  background-color: #2642af;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation .hamburger {
+    display: block;
+  }
+  .navigation .navigation-menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    border-top: 1px solid black;
+  }
+  .navigation .navigation-menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navigation .navigation-menu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation .navigation-menu li:hover {
+    background-color: #eee;
+  }
+  .navigation .navigation-menu ul {
+    /* previous styles */
+    display: none;
+  }
+  .navigation .navigation-menu.expanded ul {
+    display: block;
+  }
+}
+
+.WorkExperience {
+  float: left;
+  padding: 5rem;
+}
+
+.WorkExperience .card {
+  background-color: transparent !important;
+  border: none;
+}
+
+.WorkExperience .card .workImages {
+  height: 40px;
+}
+
+.WorkExperience .card .phpImage {
+  width: 60px;
+  height: 40px;
+}
+
+.header-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5% !important;
+}
+
+.header-div .img-right {
+  width: 210px;
+  float: right;
+  margin-top: 30px;
+  border-radius: 5%;
+  -webkit-box-shadow: 12px 12px 17px 1px rgba(0, 0, 0, 0.69);
+  box-shadow: 12px 12px 17px 1px rgba(0, 0, 0, 0.69);
+}
+
+.header-div .h1Header {
+  margin-top: 150px;
+  max-width: 80%;
+}
+
+.middle-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5% !important;
+}
+
+.middle-div .svgCol .svg {
+  margin-top: 100px !important;
+}
+
+.middle-div .informationTab {
+  color: black;
+}
+
+.middle-div .informationTab .carousel-item {
+  border-radius: 20%;
+  padding-left: 30px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: khaki;
+}
+
+.middle-div .informationTab p {
+  font-size: 0.8rem;
+}
+
+.middle-div .informationTab h3 {
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-div {
+    display: block;
+  }
+  .middle-div {
+    display: block;
+  }
+  .middle-div .svgCol {
+    display: none !important;
+  }
+}
+
+.img-right {
+  margin-right: 4rem;
+}
+
+@media only screen and (min-width: 992px) {
+  .img-right {
+    margin-right: 9rem;
+  }
+}
+/*# sourceMappingURL=global.css.map */

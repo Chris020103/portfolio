@@ -1,0 +1,68 @@
+@import './assets/scss/global.scss';
+.App {
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    text-shadow: 0px 2px 8px rgba(255, 255, 255, 0.7);
+}
+
+p {
+    margin: 0 !important;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-progress-bar-HTML5 {
+    background-color: #e44b24 !important;
+}
+
+.bg-progress-bar-CSS3 {
+    background-color: #274de5 !important;
+}
+
+.bg-progress-bar-JS {
+    background-color: #f7e018 !important;
+}
+
+.bg-progress-bar-PHP {
+    background-color: #787cb4 !important;
+}
+
+.App-header {
+    background: #000000;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #000000 1%, #203a43 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #000000 1%, #203a43 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #000000 1%, #203a43 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.svgCol svg {
+    fill: url(#header-shape-gradient) black;
+    opacity: 0.4
+}
+
+.svgCol svg {
+    -webkit-filter: drop-shadow( 4px 4px 3px rgba(0, 0, 0, .7));
+    filter: drop-shadow( 4px 4px 3px rgba(0, 0, 0, .7));
+}
+
+#header-shape-gradient {
+    --color-stop: #f12c06;
+    --color-bot: #faed34;
+}
